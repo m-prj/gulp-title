@@ -1,0 +1,41 @@
+{
+  "name": "gulp-title",
+  "version": "0.0.1",
+  "description": "gulp title.",
+  "main": "index.js",
+  "engines": {
+    "node": "~>0.10.x",
+    "npm": ">= 1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misak1/gulp-title.git"
+  },
+  "scripts": {
+    "examples": "node ./examples.js",
+    "test": "mocha --ui tdd ./tests/",
+    "doc": "php README.php | sed -e 's/NPM_PACKAGE_NAME/gulp-title/g' >  README.md "
+  },
+  "author": {
+    "name": "Misaki Shibata",
+    "email": "misaki.pink@gmail.com",
+    "url": ""
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misak1/gulp-title/issues"
+  },
+  "dependencies": {
+    "ascii-art": "0.0.2-alpha",
+    "async": "^1.5.0",
+    "m-util": "*"
+  },
+  "devDependencies": {
+    "should": "^7.1.1",
+    "mocha": "^2.3.3"
+  },
+  "keywords": [
+    "gulp",
+    "title"
+  ]
+}
