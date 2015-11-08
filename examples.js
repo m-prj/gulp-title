@@ -1,6 +1,6 @@
 var gt = require('./index.js');
 
-var aryTitle = ["gulp-title", "Basic", "red"];
+var aryTitle = ["gt", "Basic", "red"];
 var fnc = function(){
   console.log("task1");
   console.log("task2");

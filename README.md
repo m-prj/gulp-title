@@ -27,8 +27,8 @@ module.exports = function() {…}
   <td>
   <div class="highlight highlight-source-js">
     <pre class="rich-diff-level-zero">
-require('./gulp-title.js');
-var aryTitle = ["gulp-title", "Basic", "red"];
+require('gulp-title');
+var aryTitle = ["gt", "Basic", "red"];
 var fnc = function(){
   console.log("task1");
   console.log("task2");
@@ -45,14 +45,14 @@ gt.go(aryTitle, fnc);
   <pre class="rich-diff-level-zero">
 # node example.js
 
-[31m   d888b  db    db db      d8888b.        d888888b d888888b d888888b db      d88888b 
-  88' Y8b 88    88 88      88  `8D        `~~88~~'   `88'   `~~88~~' 88      88'     
-  88      88    88 88      88oodD'           88       88       88    88      88ooooo 
-  88  ooo 88    88 88      88~~~   C8888D    88       88       88    88      88~~~~~ 
-  88. ~8~ 88b  d88 88booo. 88                88      .88.      88    88booo. 88.     
-   Y888P  ~Y8888P' Y88888P 88                YP    Y888888P    YP    Y88888P Y88888P 
-                                                                                     
-                                                                                     
+[31m   d888b  d888888b 
+  88' Y8b `~~88~~' 
+  88         88    
+  88  ooo    88    
+  88. ~8~    88    
+   Y888P     YP    
+                   
+                   
 [0m
 task1
 task2
